@@ -1,0 +1,4 @@
+package Queue
+
+class Deque {
+}

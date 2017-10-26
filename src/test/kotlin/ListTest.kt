@@ -25,6 +25,11 @@ class ListTest:StringSpec() {
             last shouldBe 7
         }
 
-        "Should return the "
+        "Should return null when removing from an empty list" {
+            var l = List<Int>(null)
+            var pop = l.removeNode()
+            pop shouldBe null
+        }
+
     }
 }
